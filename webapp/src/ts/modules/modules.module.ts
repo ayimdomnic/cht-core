@@ -22,6 +22,7 @@ import { ContactsComponent } from './contacts/contacts.component';
 import { ContactsContentComponent } from '@mm-modules/contacts/contacts-content.component';
 import { ContactsFiltersComponent } from '@mm-modules/contacts/contacts-filters.component';
 import { ContactsDeceasedComponent } from '@mm-modules/contacts/contacts-deceased.component';
+import { ContactsEditComponent } from '@mm-modules/contacts/contacts-edit.component';
 import { MessagesContentComponent } from './messages/messages-content.component';
 import { PrivacyPolicyComponent } from './privacy-policy/privacy-policy.component';
 import { AnalyticsTargetsComponent } from './analytics/analytics-targets.component';
@@ -47,6 +48,7 @@ import { TasksContentComponent } from '@mm-modules/tasks/tasks-content.component
     ContactsContentComponent,
     ContactsFiltersComponent,
     ContactsDeceasedComponent,
+    ContactsEditComponent,
     MessagesContentComponent,
     PrivacyPolicyComponent,
     AnalyticsTargetsComponent,

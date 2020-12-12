@@ -128,6 +128,7 @@ export class AppComponent implements OnInit, OnDestroy {
       .get()
       .then((language) => {
         this.setLanguageService.set(language, false);
+        this.globalActions.setTranslationsLoaded();
       })
       .catch(err => {
         console.error('Error loading language', err);
